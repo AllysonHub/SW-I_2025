@@ -6,21 +6,21 @@
     <title>Exercicio 02</title>
 </head>
 <body>
-<form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Login</label>
-    <input type="login" class="form-control" id="login" aria-describedby="login" required>
-    <div id="login" class="form-text">Nunca compartilharemos o seu e-mail</div>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Senha</label>
-    <input type="password" class="form-control" id="pw">
-  </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="checkb">
-    <label class="form-check-label" for="exampleCheck1">Confirmo os dados</label>
-  </div>
-  <button type="submit" class="btn btn-primary" id="bt">Enviar</button>
-</form>
+  <form action="expost01.php" method="POST">
+    <div>
+      <p>
+        Crie um formulario que receba um login e senha de um usuario. Faça a validaçao dos campos de modo que o usuario tenha que preencher todos os campo. Se o login for "etec" e a senha for "informatica", exiba uma mensagem na tela de "logado com sucesso" e nao exiba mais o formulario de login
+      </p>
+    </div>
+    <div>
+      <label for="login">Login: </label>
+      <input type="text" name="login" id="idlogin" required>
+    </div>
+    <div>
+      <label for="pw">Senha: </label>
+      <input type="password" name="pw" id="idpw" required>
+    </div>
+    <button type="submit" class="btn btn-primary" id="bt">Enviar</button>
+  </form>
 </body>
 </html>
