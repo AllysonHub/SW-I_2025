@@ -10,14 +10,14 @@
 .error-code {
     font-size: 12rem;
     font-weight: 900;
-    background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.5));
+    background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.377));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: pulse 2s infinite;
 }
 
 .error-message {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.801);
 }
 
 @keyframes pulse {
@@ -35,7 +35,7 @@
 }
 
 .btn-glass {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.301);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: white;

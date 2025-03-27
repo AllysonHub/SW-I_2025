@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <form action="prc.php" method="POST">
+        <form action="back.php" method="POST">
             <!-- Email input -->
             <div data-mdb-input-init class="form-outline mb-4">
                 <input type="email" id="form2Example1" class="form-control" name="email"/>
